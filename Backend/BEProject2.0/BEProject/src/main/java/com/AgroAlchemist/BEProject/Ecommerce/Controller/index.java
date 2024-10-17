@@ -1,0 +1,13 @@
+package com.AgroAlchemist.BEProject.Ecommerce.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class index {
+
+    @GetMapping("index")
+    public String indexJsp() {
+        return "index";
+    }
+}
